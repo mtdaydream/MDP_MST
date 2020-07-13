@@ -12,12 +12,12 @@ Here you can computationally explore instances of MDP, and try to solve them by 
 
 * [Shapely](https://pypi.org/project/Shapely/)
 * [Descartes](https://pypi.org/project/descartes/)
-* [Figures](https://pypi.org/project/Figures/)
+* [Figures](https://pypi.org/project/Figures/) (see **Note** below)
 * matplotlib
 * numpy
 * scipy (for [distance computations](https://docs.scipy.org/doc/scipy/reference/spatial.distance.html))
 
-*With regards to Shapely, make sure you save the file **figures.py** (included in this repo) in the current working directory. See  [this web page](Toblerity/Shapely/issues/536) for details of this error.*
+**Note:** *One may have trouble getting Figures installed, so make sure you save the file **figures.py** (included in the repo with this file) in the current directory (or in a location where your Python looks for automatically). See  [this web page](https://github.com/Toblerity/Shapely/issues/536) for details of this error.*
 
 #### A Jupyter notebook (MDP_MST.ipynb) as well as a standalone Python program (MDP_MST.py) are provided. Instructions specific to running the Python code are provided in the file Instructions_MDP_MST_py.txt.
 
