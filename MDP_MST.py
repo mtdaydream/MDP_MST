@@ -79,6 +79,7 @@ while True:
 
         plt.scatter(X, Y, s=1, c='b', marker='.')
         plt.grid()
+        plt.ion()
         # plt.show()
 
         Step = 1
